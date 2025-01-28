@@ -86,43 +86,46 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    font-weight: 600;
+    .home{
+        color: white;
+    }
+    .fa-house{
+        font-size: 24px;
+        gap: 1rem;
+        color: white;
+        border: 1px solid transparent;
+        background-color: transparent;
+        padding: 0.25rem;
+        margin-right: 0.5rem;
+    }
+    .search{
+        color: var(--grey);
+    }
+    .fa-magnifying-glass{
+        font-size: 24px;
+        color: var(--grey);
+        gap: 1rem;
+        border: 1px solid transparent;
+        background-color: transparent;
+        padding: 0.25rem;
+        margin-right: 0.7rem;
+    }
+    .library{
+        color: var(--grey);
+    }
+    .fa-bookmark{
+        font-size: 24px;
+        color: var(--grey);
+        gap: 1rem;
+        border: 1px solid transparent;
+        background-color: transparent;
+        padding: 0.25rem;
+        margin-right: 1rem;
+        margin-left: 0.25rem;
+    }
 }
 
-.home{
-    color: white;
-}
-
-
-
-.fa-house{
-    font-size: 24px;
-    gap: 1rem;
-    color: white;
-    border: 1px solid transparent;
-    background-color: transparent;
-    padding: 0.25rem;
-    margin-right: 0.5rem;
-}
-
-.fa-magnifying-glass{
-    font-size: 24px;
-    color: var(--grey);
-    gap: 1rem;
-    border: 1px solid transparent;
-    background-color: transparent;
-    padding: 0.25rem;
-    margin-right: 0.7rem;
-}
-
-.fa-bookmark{
-    font-size: 24px;
-    color: var(--grey);
-    gap: 1rem;
-    border: 1px solid transparent;
-    background-color: transparent;
-    padding: 0.25rem;
-    margin-right: 1rem;
-}
 
 h3{
     color: white;
@@ -131,6 +134,7 @@ h3{
 
 .create{
     font-weight: 600;
+    color: var(--grey);
 }
 
 .fa-plus{
@@ -138,12 +142,16 @@ h3{
     font-size: 24px;
     border: 1px solid grey;
     background-color: grey;
-    padding: 0.75rem 1rem 0.75rem;
+    color: #000000;
+    padding: 0.5rem 0.75rem 0.5rem;
     margin-right: 0.5rem;
 }
 
 li{
     list-style: none;
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--grey);
 }
 
 main{
