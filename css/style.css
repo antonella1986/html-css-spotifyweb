@@ -53,7 +53,7 @@ main{
 
 .flex-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 1000px;
 }
 
@@ -71,20 +71,19 @@ main{
 }
 
 nav{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     width: 20%;
     padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
     gap: 1rem;
     .logo{
-    width: 70%;
-    padding-bottom: 1rem; 
+        width: 70%;
+        padding-bottom: 1rem; 
     }
 }
 
 .menu-sidebar{
-    display: flex;
-    flex-direction: column;
     gap: 0.5rem;
     font-weight: 600;
     .home{
@@ -126,15 +125,45 @@ nav{
     }
 }
 
+.bottom-sidebar{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    color: var(--grey);
+    padding-top: 18rem;
+    .fa-arrow-down{
+        font-size: 8px;
+        color: var(--grey);
+        border: 2px solid var(--grey);
+        border-radius: 100%;
+        padding: 0.25rem 0.3rem 0.25rem;
+        margin-right: 1rem;
+    }
+    hr{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border: 1px solid var(--grey);
+    }
+    .fa-user{
+        font-size: 24px;
+        color: #000000;
+        background-color: var(--grey);
+        border-radius: 100%;
+        padding: 0.5rem 0.7rem 0.7rem;
+        margin-right: 1rem;
+    }   
+}
 
 h3{
     color: white;
     padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .create{
     font-weight: 600;
     color: var(--grey);
+    padding-bottom: 0.5rem;
 }
 
 .fa-plus{
