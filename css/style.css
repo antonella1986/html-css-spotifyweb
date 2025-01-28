@@ -14,13 +14,68 @@
     --grey: #A3A3A3;
 }
 
-main{ 
+.sidebar{
+    background-color: red;
+    height: 100%;
+    width: 20%;
+}
 
+main{
+    background-color: aquamarine;
 }
 
 .col-2{
     width: calc(100% / 12 * 2);
 }
+
+
+
+.debug{
+    nav{
+      background-color: green;
+    }
+    main{
+      background-color: blue;
+    }
+    footer{
+      background-color: red;
+    }
+}
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.top{
+    background-color: #cfcfcf;
+    height: 8%;
+    width: 100%;
+}
+
+nav{
+    width: 30%;
+    padding: 1rem;
+}
+
+main{
+    width: 70%;
+}
+
+footer{
+    min-height: 100px;
+}
+
+
+
+
+
+
+
+
 
 /******* Responsive solution *******/
 
