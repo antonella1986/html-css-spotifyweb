@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+:root{
+    --sidebar: #000000;
+    --header: #080B12;
+    --main: #141922;
+    --accent: #ADFF2F;
+    --footer: #282828;
+    --grey: #A3A3A3;
+}
+
+main{ 
+
+}
+
+.col-2{
+    width: calc(100% / 12 * 2);
+}
+
+/******* Responsive solution *******/
+
+/* Tablet */
+
+@media screen and (min-width: 768px){
+
+}
+
+/* Smartphone */
+
+@media screen and (min-width: 480px){
+
+}
