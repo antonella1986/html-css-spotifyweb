@@ -1,9 +1,9 @@
 giorno 1 - layout
-    - studio
+    - studio ✅
     - esecuzione
         .sidebar
-            > logo
-            > nav
+            > logo ✅
+            > nav ✅
             > titoletto PLAYLIST
             > funzione Crea Playlist
             > elenco
@@ -11,8 +11,8 @@ giorno 1 - layout
             > hr
             > account (avatar + nome)
         .main
-            > sopra di header con pulsante dell'upgrade a destra (sfondo diverso dal main)
-            > col-2 (album) - 3 RIGHE IN TUTTO
+            > sopra di header con pulsante dell'upgrade a destra (sfondo diverso dal main) ✅
+            > col-2 (album) - 3 RIGHE IN TUTTO ✅
         .footer
             > 3 gruppi di voci
                 sx: miniatura + titolo + icone
