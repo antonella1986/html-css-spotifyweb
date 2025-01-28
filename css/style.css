@@ -44,7 +44,7 @@ main{
 
 
 
-.flex-container {
+.flex-container{
     display: flex;
     justify-content: space-between;
     height: 800px;
@@ -54,6 +54,13 @@ main{
     background-color: #cfcfcf;
     height: 8%;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+    #upgrade{
+        padding: 0.5rem;
+    }
 }
 
 nav{
