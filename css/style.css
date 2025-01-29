@@ -45,7 +45,7 @@ body{
 
 .top{
     background-color: var(--header);
-    height: 15%;
+    height: 10%;
     width: 100%;
     display: flex;
     justify-content: flex-end;
