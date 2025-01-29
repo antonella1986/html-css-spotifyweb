@@ -79,7 +79,7 @@ nav{
     gap: 1rem;
     background-color: var(--sidebar);
     .logo{
-        width: 70%;
+        max-width: 200px;
         padding-bottom: 1rem; 
     }
 }
