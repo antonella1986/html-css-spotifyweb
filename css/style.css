@@ -42,7 +42,7 @@ body{
 .flex-container{
     display: flex;
     justify-content: flex-start;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 90px);
 }
 
 .top{
@@ -233,7 +233,7 @@ p{
 }
 
 footer{
-    min-height: 100px;
+    min-height: 90px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -262,6 +262,13 @@ footer{
                 padding-right: 0.5rem;
             }
         }
+    }
+    .menu-dx{
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        color: white;
+        font-size: 12px;
     }
 }
 
