@@ -28,6 +28,7 @@ body{
     width: calc(100% / 12 * 2);
     width: 180px;
     text-align: center;
+    padding-bottom: 0.75rem;
 }
 
 .circle-2{
@@ -330,20 +331,46 @@ footer{
 
 /******* Responsive solution *******/
 
-/* Tablet */
+/* M */
 
-@media screen and (min-width: 768px){
-
+@media screen and (max-width: 878px){
+    body{
+        min-width: auto;
+    }
+    .top{
+        height: 15%;
+    }
+    .top-titles{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-/* Smartphone */
+/* S */
 
-@media screen and (min-width: 480px){
-
+@media screen and (min-width: 666px){
+    .top{
+        height: 10%;
+    }
+    .icons{
+        padding-left: 0rem;
+    }
+    .titles-top{
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-/* Smartphone */
+/* XS */
 
-@media screen and (min-width: 600px){
-
+@media screen and (max-width: 480px){
+    .top{
+        height: ;
+    }
+    .titles-top{
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
