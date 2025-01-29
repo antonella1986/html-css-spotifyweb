@@ -27,7 +27,6 @@ body{
 .col-2{
     width: calc(100% / 12 * 2);
     width: 180px;
-    background-color: #ADFF2F;
     text-align: center;
 }
 
@@ -212,14 +211,17 @@ h2{
 
 p{
     padding-left: 2rem;
-    color: white;
+    padding-top: 0.5rem;
+    color: var(--grey);
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .row{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 1.5rem 2rem 2rem;
+    padding: 1.5rem 2rem 1rem;
     gap: 1rem;
 }
 
