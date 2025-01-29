@@ -32,9 +32,7 @@ body{
 
 .circle-2{
     width: calc(100% / 12 * 2);
-    height: 180px;
     width: 180px;
-    background-color: #ADFF2F;
     border-radius: 100%;
 }
 
@@ -42,6 +40,7 @@ body{
     display: flex;
     justify-content: flex-start;
     height: calc(100vh - 90px);
+    overflow-y: auto;
 }
 
 .top{
@@ -78,6 +77,7 @@ nav{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    overflow-y: auto;
     width: 220px;
     height: 100%;
     padding: 1.5rem;
@@ -92,6 +92,7 @@ nav{
 .menu-sidebar{
     gap: 0.5rem;
     font-weight: 600;
+    font-size: 12px;
     .home{
         color: white;
     }
@@ -114,7 +115,7 @@ nav{
         border: 1px solid transparent;
         background-color: transparent;
         padding: 0.25rem;
-        margin-right: 0.7rem;
+        margin-right: 0.6rem;
     }
     .library{
         color: var(--grey);
@@ -127,14 +128,23 @@ nav{
         background-color: transparent;
         padding: 0.25rem;
         margin-right: 1rem;
-        margin-left: 0.25rem;
     }
+}
+
+.name-playlist{
+    padding-top: 1rem;
+}
+
+.playlist-name{
+    padding-bottom: 0.75rem;
+    font-size: 12px;
 }
 
 .bottom-sidebar{
     display: flex;
     flex-direction: column;
     font-weight: 700;
+    font-size: 12px;
     color: var(--grey);
     .fa-arrow-down{
         font-size: 8px;
@@ -156,12 +166,16 @@ nav{
         border-radius: 100%;
         padding: 0.5rem 0.7rem 0.7rem;
         margin-right: 1rem;
-    }   
+    }
+    .user{
+        font-size: 14px;
+        color: white;
+    }
 }
 
 h3{
     color: white;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     padding-bottom: 0.5rem;
     font-size: 14px;
 }
@@ -170,6 +184,11 @@ h3{
     font-weight: 600;
     color: var(--grey);
     padding-bottom: 0.5rem;
+    padding-top: 1rem;
+}
+
+.create-playlist{
+    font-size: 13px;
 }
 
 .fa-plus{
@@ -192,7 +211,7 @@ li{
 main{
     width: calc(100% - 220px);
     height: 100%;
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     background-color: var(--main);
     overflow-y: auto;
     .top-titles{
@@ -230,9 +249,6 @@ p{
 
 img{
     max-width: 100%;
-    &:hover{
-        background-color: rgba(0, 0, 0, 0.366);
-    }
 }
 
 h5{
