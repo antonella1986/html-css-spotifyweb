@@ -68,6 +68,12 @@ body{
     }
 }
 
+.titles-top{
+    &:hover{
+        border-bottom: 2px solid var(--accent);
+    }
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -181,9 +187,6 @@ li{
     padding-bottom: 0.5rem;
     font-weight: 600;
     color: var(--grey);
-    &:hover{
-        text-decoration: underline var(--accent);
-        }
 }
 
 main{
