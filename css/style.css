@@ -85,7 +85,7 @@ nav{
     background-color: var(--sidebar);
     .logo{
         max-width: 200px;
-        padding-bottom: 1rem; 
+        padding-bottom: 1rem;
     }
 }
 
@@ -286,6 +286,16 @@ footer{
             .fa-heart{
                 padding-right: 0.5rem;
             }
+        }
+    }
+    .menu-cn-up{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        color: white;
+        .fa-circle-play{
+            font-size: 30px;
         }
     }
     .menu-dx{
