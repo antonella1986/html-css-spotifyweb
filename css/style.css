@@ -21,11 +21,7 @@ body{
 .sidebar{
     background-color: red;
     height: 100%;
-    width: 20%;
-}
-
-main{
-    background-color: aquamarine;
+    width: 50px;
 }
 
 .col-2{
@@ -188,7 +184,7 @@ li{
 }
 
 main{
-    width: 80%;
+    width: calc(100vw - 50px);
     padding-bottom: 5rem;
     .top-titles{
         display: flex;
@@ -236,10 +232,12 @@ p{
 
 footer{
     min-height: 100px;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    position: fixed;
     .menu-sx{
         display: flex;
         justify-content: flex-start;
@@ -275,5 +273,11 @@ footer{
 /* Smartphone */
 
 @media screen and (min-width: 480px){
+
+}
+
+/* Smartphone */
+
+@media screen and (min-width: 600px){
 
 }
