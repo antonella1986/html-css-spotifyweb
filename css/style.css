@@ -362,14 +362,64 @@ footer{
 
 /* S */
 
-@media screen and (min-width: 666px){
-    .top{
-        height: 5%;
+@media screen and (min-width: 600px){
+    body{
+        min-width: auto;
     }
-    .titles-top{
+    .col-2{
+        width: 130px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        overflow-y: auto;
+        width: 180px;
+        height: 100%;
+        padding: 1rem;
+        gap: 1rem;
+        background-color: var(--sidebar);
+        .logo{
+            width: 100px;
+            padding-bottom: 1rem;
+        }
+    }
+    main{
+        width: calc(100% - 180px);
+    }
+    .album-titles{
         font-size: 12px;
+        padding-top: 0.75rem;
+    }
+    .top{
+        padding: 1rem 0.25rem 1rem;
+        height: 8%;
+    }
+    #upgrade{
+        padding: 0.5rem 1rem 0.5rem;
+    }
+    .top-titles{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .playlist{
+        padding-top: 2rem;
+    }
+    footer{
+        padding: 0.5rem;        
+    }
+    h5{
+        text-align: left;
+        font-size: 8px;
+    }
+    .menu-cn-up{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    #progress2{
+        width: 50px;
     }
 }
 
