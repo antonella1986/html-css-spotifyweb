@@ -290,12 +290,25 @@ footer{
     }
     .menu-cn-up{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         gap: 2rem;
         color: white;
+        padding-bottom: 0.5rem;
         .fa-circle-play{
             font-size: 30px;
+        }
+    }
+    .menu-cn-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        gap: 2rem;
+        color: white;
+        font-size: 9px;
+        .progress{
+            color: #A3A3A3;
         }
     }
     .menu-dx{
