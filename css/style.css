@@ -337,12 +337,26 @@ footer{
     body{
         min-width: auto;
     }
+    .col-2{
+        width: 130px;
+    }
+    .logo{
+        width: 80%;
+    }
+    .album-titles{
+        font-size: 12px;
+        padding-top: 0.75rem;
+    }
     .top{
-        height: 15%;
+        padding: 2rem 0.25rem 2rem;
     }
     .top-titles{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .playlist{
+        padding-top: 2rem;
     }
 }
 
@@ -350,10 +364,7 @@ footer{
 
 @media screen and (min-width: 666px){
     .top{
-        height: 10%;
-    }
-    .icons{
-        padding-left: 0rem;
+        height: 5%;
     }
     .titles-top{
         font-size: 12px;
