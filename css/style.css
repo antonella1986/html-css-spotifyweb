@@ -564,7 +564,7 @@ footer{
 
 @media screen and (max-width: 480px){
     .col-2{
-        width: 160px;
+        width: 185px;
     }
     nav{
         display: flex;
@@ -584,7 +584,6 @@ footer{
             .logo-small{
                 display: block;
                 width: 25px;
-
             }
             .menu-sidebar{
                 display: flex;
@@ -637,7 +636,7 @@ footer{
         }
         .top{
             padding: 0.5rem 0.25rem 0.5rem;
-            height: 8%;
+            height: 80px;
                 #upgrade{
                 padding: 0.75rem 2rem 0.75rem;
                     #upgrade-label{
@@ -645,11 +644,21 @@ footer{
                     }
                 }
         }
+        .row{
+            padding-left: 0.75rem;
+            padding-right: 0.75rem;
+
+        }
+    }
+    h2{
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
     }
     .top-titles{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding-left: 0.75rem;
     }
     h5{
         text-align: left;
