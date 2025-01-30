@@ -490,19 +490,62 @@ footer{
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+        vertical-align: middle;
         overflow-y: auto;
-        width: 150px;
+        width: 50px;
         height: 100%;
-        padding: 1rem;
+        padding: 0.75rem;
         gap: 1rem;
         background-color: var(--sidebar);
-        .logo{
-            width: 80px;
-            padding-bottom: 1rem;
+        .top-sidebar{
+            .logo{
+                display: none;
+            }
+            .logo-small{
+                display: block;
+                width: 30px;
+            }
+            .menu-sidebar{
+                text-align: center;
+                padding-top: 0.5rem;
+                .home{
+                    display: none;
+                }
+                .fa-house{
+                    font-size: 20px;
+                    margin: 0;
+                    padding: 0;
+                }
+                .search{
+                    display: none;
+                }
+                .fa-magnifying-glass{
+                    font-size: 20px;
+                    margin: 0;
+                    padding: 0;
+                }
+                .library{
+                    display: none;
+                }
+                .fa-bookmark{
+                    font-size: 20px;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                }
+            }
+            .list-playlist{
+                display: none;
+            }
+        }
+        .bottom-sidebar{
+            #install{
+                display: none;
+            }
         }
     }
     main{
-        width: calc(100% - 150px);
+        width: calc(100% - 50px);
         .album-titles{
             font-size: 12px;
             padding-top: 0.75rem;
@@ -533,14 +576,6 @@ footer{
     h5{
         text-align: left;
         font-size: 8px;
-    }
-    .menu-cn-up{
-        font-size: 12px;
-        display: flex;
-        justify-content: center;
-    }
-    #progress2{
-        width: 40px;
     }
     .album-sub{
         text-align: center;
@@ -592,6 +627,18 @@ footer{
                 flex-direction: column;
                 gap: 0.25rem;
                 padding: 0.75rem;
+            }
+        }
+        .menu-cn{
+            .menu-cn-up{
+                display: flex;
+                justify-content: center;
+                column-gap: 1.5rem;
+            }
+            .menu-cn-bottom{
+                display: flex;
+                justify-content: center;
+                column-gap: 1.5rem;
             }
         }
         .menu-dx{
