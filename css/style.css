@@ -312,9 +312,6 @@ footer{
         gap: 2rem;
         color: white;
         font-size: 9px;
-        .progress{
-            color: #A3A3A3;
-        }
     }
     .menu-dx{
         display: flex;
@@ -426,7 +423,7 @@ footer{
         justify-content: center;
     }
     #progress2{
-        width: 50px;
+        width: 40px;
     }
     .album-sub{
         text-align: center;
@@ -466,6 +463,14 @@ footer{
     }
     .create-playlist{
         padding-top: 0.25rem;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    hr{
+        margin: 0;
     }
 }
 
