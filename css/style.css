@@ -72,6 +72,7 @@ body{
     &:hover{
         border-bottom: 2px solid var(--accent);
     }
+    :after
 }
 
 nav{
@@ -87,6 +88,9 @@ nav{
     .logo{
         max-width: 200px;
         padding-bottom: 1rem;
+    }
+    .logo-small{
+        display: none;
     }
 }
 
@@ -333,7 +337,7 @@ footer{
 
 /* M */
 
-@media screen and (max-width: 878px){
+@media screen and (min-width: 878px){
     body{
         min-width: auto;
     }
@@ -393,10 +397,13 @@ footer{
     }
     .top{
         padding: 1rem 0.25rem 1rem;
-        height: 8%;
+        height: 10%;
     }
     #upgrade{
         padding: 0.5rem 1rem 0.5rem;
+        #upgrade-label{
+            font-size: 8px;
+        }
     }
     .top-titles{
         display: flex;
@@ -421,11 +428,50 @@ footer{
     #progress2{
         width: 50px;
     }
+    .album-sub{
+        text-align: center;
+    }
+    .menu-sidebar{
+        font-size: 10px;
+    }
+    .bottom-sidebar{
+        font-size: 10px;
+    }
+    .fa-home{
+        font-size: 10px;
+    }
+    .fa-bookmark{
+        margin-right: 0.5rem;
+        font-size: 10px;
+    }
+    .fa-user{
+        font-size: 10px;
+    }
+    .user{
+        font-size: 10px;
+    }
+    .name-playlist{
+        font-size: 8px;
+        padding-top: 0.5rem;
+        .playlist-name{
+            padding-bottom: 0.25rem;
+        }
+    }
+    .playlist{
+        padding-top: 0.75rem;
+        padding-bottom: 0;
+    }
+    .create{
+        padding-top: 0.5rem;
+    }
+    .create-playlist{
+        padding-top: 0.25rem;
+    }
 }
 
 /* XS */
 
-@media screen and (max-width: 480px){
+@media screen and (min-width: 480px){
     .top{
         height: ;
     }
@@ -435,3 +481,5 @@ footer{
         flex-wrap: wrap;
     }
 }
+
+due div sovrapposti le progress bar
