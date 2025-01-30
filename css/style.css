@@ -670,6 +670,9 @@ footer{
     footer{
         padding: 0 1rem 0;
         .menu-sx{
+            img{
+                width: 30px;
+            }
             .name{
                 padding-left: 0.5rem;
             }
@@ -711,5 +714,3 @@ footer{
         }
     }
 }
-
-due div sovrapposti le progress bar
