@@ -580,28 +580,12 @@ footer{
         flex-wrap: wrap;
         justify-content: center;
     }
-    .playlist{
-        padding-top: 2rem;
-    }
-    footer{
-        padding: 0.5rem;        
-    }
     h5{
         text-align: left;
         font-size: 8px;
     }
     .album-sub{
         text-align: center;
-    }
-    .playlist{
-        padding-top: 0.75rem;
-        padding-bottom: 0;
-    }
-    .create{
-        padding-top: 0.5rem;
-    }
-    .create-playlist{
-        padding-top: 0.25rem;
     }
     footer{
         padding: 0 1rem 0;
