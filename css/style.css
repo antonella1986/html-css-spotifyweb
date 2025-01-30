@@ -126,13 +126,13 @@ nav{
     font-weight: 700;
     font-size: 12px;
     color: var(--grey);
-    .fa-arrow-down{
-        font-size: 8px;
-        color: var(--grey);
-        border: 2px solid var(--grey);
-        border-radius: 100%;
-        padding: 0.25rem 0.3rem 0.25rem;
-        margin-right: 1rem;
+    .install-menu{
+        display: flex;
+        align-items: center;
+        column-gap: 0.5rem;
+        #download{
+           width: 16px; 
+        }
     }
     hr{
         margin-bottom: 1rem;
@@ -143,12 +143,13 @@ nav{
         display: flex;
         align-items: center;
         column-gap: 1rem;
-    }
-    #icon-user{
-        max-width: 30px;
-        border: 1px solid var(--grey);
-        background-color: var(--grey);
-        border-radius: 100%;
+        color: white;
+        #icon-user{
+            max-width: 30px;
+            border: 1px solid var(--grey);
+            background-color: var(--grey);
+            border-radius: 100%;
+        }
     }
 }
 
@@ -341,21 +342,19 @@ footer{
             display: flex;
             justify-content: flex-start;
             padding-bottom: 0;
+            gap: 0.5rem;
         }
         .home{
             display: flex;
             align-items: center;
-            padding-left: 0.5rem;
         }
         .search{
             display: flex;
             align-items: center;
-            padding-left: 0.5rem;
         }
         .library{
             display: flex;
             align-items: center;
-            padding-left: 0.5rem;
         }
         .create{
             display: flex;
@@ -434,11 +433,40 @@ footer{
                 padding-bottom: 1rem;
             }
             li{
+                display: flex;
+                justify-content: flex-start;
                 padding-bottom: 0;
+            }
+            .home{
+                display: flex;
+                align-items: center;
+                padding-right: 0.5rem;
+            }
+            .search{
+                display: flex;
+                align-items: center;
+                padding-right: 0.5rem;
+            }
+            .library{
+                display: flex;
+                align-items: center;
+                padding-right: 0.5rem;
             }
             .fa-plus{
                 padding: 2px 4px;
                 margin-right: 0.25rem;
+            }
+            .playlist-name{
+                padding-bottom: 0.5rem;
+            }
+        }
+        .bottom-sidebar{
+            padding-bottom: 0;
+            hr{
+                margin: 0.5rem 0 0.75rem;
+            }
+            #icon-user{
+                width: 20px;
             }
         }
     }
@@ -460,9 +488,6 @@ footer{
             padding-top: 0.75rem;
         }
     }
-
-
-
     .top-titles{
         display: flex;
         flex-wrap: wrap;
@@ -484,8 +509,19 @@ footer{
         display: flex;
         justify-content: center;
     }
-    #progress2{
-        width: 40px;
+    footer{
+        .menu-cn-bottom{
+            gap: 1rem;
+            #progress{
+            width: 150px;
+            }
+        }
+        .menu-dx{
+            gap: 0.5rem;
+            #progress2{
+                width: 40px;
+            }
+        }
     }
     .album-sub{
         text-align: center;
