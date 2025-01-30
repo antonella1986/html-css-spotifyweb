@@ -366,7 +366,7 @@ footer{
 
 /* S */
 
-@media screen and (min-width: 600px){
+@media screen and (max-width: 600px){
     body{
         min-width: auto;
     }
@@ -479,9 +479,9 @@ footer{
 
 /* XS */
 
-@media screen and (min-width: 480px){
+@media screen and (max-width: 480px){
     .col-2{
-        width: 180px;
+        width: 160px;
     }
     nav{
         display: flex;
