@@ -480,11 +480,8 @@ footer{
 /* XS */
 
 @media screen and (min-width: 480px){
-    body{
-        min-width: auto;
-    }
     .col-2{
-        width: 130px;
+        width: 180px;
     }
     nav{
         display: flex;
@@ -504,17 +501,18 @@ footer{
             .logo-small{
                 display: block;
                 width: 30px;
+
             }
             .menu-sidebar{
                 text-align: center;
-                padding-top: 0.5rem;
+                padding-top: 1rem;
                 .home{
                     display: none;
                 }
                 .fa-house{
                     font-size: 20px;
                     margin: 0;
-                    padding: 0;
+                    padding: 0 0 0.5rem;
                 }
                 .search{
                     display: none;
@@ -522,7 +520,7 @@ footer{
                 .fa-magnifying-glass{
                     font-size: 20px;
                     margin: 0;
-                    padding: 0;
+                    padding: 0 0 0.5rem;
                 }
                 .library{
                     display: none;
@@ -530,7 +528,7 @@ footer{
                 .fa-bookmark{
                     font-size: 20px;
                     margin: 0;
-                    padding: 0;
+                    padding: 0 0 0.5rem;
                     text-align: center;
                 }
             }
@@ -540,6 +538,22 @@ footer{
         }
         .bottom-sidebar{
             #install{
+                display: none;
+            }
+            .fa-arrow-down{
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                padding: 0.5rem;
+            }
+            hr{
+                display: none;
+            }
+            .fa-user{
+                margin: 1rem 0 0.25rem;
+                padding: 0.25rem;
+            }
+            .user{
                 display: none;
             }
         }
@@ -561,7 +575,6 @@ footer{
                 }
         }
     }
-
     .top-titles{
         display: flex;
         flex-wrap: wrap;
@@ -579,32 +592,6 @@ footer{
     }
     .album-sub{
         text-align: center;
-    }
-    .menu-sidebar{
-        font-size: 10px;
-    }
-    .bottom-sidebar{
-        font-size: 10px;
-    }
-    .fa-home{
-        font-size: 10px;
-    }
-    .fa-bookmark{
-        margin-right: 0.5rem;
-        font-size: 10px;
-    }
-    .fa-user{
-        font-size: 10px;
-    }
-    .user{
-        font-size: 10px;
-    }
-    .name-playlist{
-        font-size: 8px;
-        padding-top: 0.5rem;
-        .playlist-name{
-            padding-bottom: 0.25rem;
-        }
     }
     .playlist{
         padding-top: 0.75rem;
