@@ -319,6 +319,9 @@ footer{
         gap: 1rem;
         color: white;
         font-size: 12px;
+        .fa-ellipsis-vertical{
+            display: none;
+        }
     }
 }
 
@@ -477,13 +480,137 @@ footer{
 /* XS */
 
 @media screen and (min-width: 480px){
-    .top{
-        height: ;
+    body{
+        min-width: auto;
     }
-    .titles-top{
-        font-size: 12px;
+    .col-2{
+        width: 130px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        overflow-y: auto;
+        width: 150px;
+        height: 100%;
+        padding: 1rem;
+        gap: 1rem;
+        background-color: var(--sidebar);
+        .logo{
+            width: 80px;
+            padding-bottom: 1rem;
+        }
+    }
+    main{
+        width: calc(100% - 150px);
+        .album-titles{
+            font-size: 12px;
+            padding-top: 0.75rem;
+        }
+        .top{
+            padding: 0.5rem 0.25rem 0.5rem;
+            height: 8%;
+                #upgrade{
+                padding: 0.75rem 2rem 0.75rem;
+                    #upgrade-label{
+                        font-size: 10px;
+                    }
+                }
+        }
+    }
+
+    .top-titles{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .playlist{
+        padding-top: 2rem;
+    }
+    footer{
+        padding: 0.5rem;        
+    }
+    h5{
+        text-align: left;
+        font-size: 8px;
+    }
+    .menu-cn-up{
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    #progress2{
+        width: 40px;
+    }
+    .album-sub{
+        text-align: center;
+    }
+    .menu-sidebar{
+        font-size: 10px;
+    }
+    .bottom-sidebar{
+        font-size: 10px;
+    }
+    .fa-home{
+        font-size: 10px;
+    }
+    .fa-bookmark{
+        margin-right: 0.5rem;
+        font-size: 10px;
+    }
+    .fa-user{
+        font-size: 10px;
+    }
+    .user{
+        font-size: 10px;
+    }
+    .name-playlist{
+        font-size: 8px;
+        padding-top: 0.5rem;
+        .playlist-name{
+            padding-bottom: 0.25rem;
+        }
+    }
+    .playlist{
+        padding-top: 0.75rem;
+        padding-bottom: 0;
+    }
+    .create{
+        padding-top: 0.5rem;
+    }
+    .create-playlist{
+        padding-top: 0.25rem;
+    }
+    footer{
+        padding: 0 1rem 0;
+        .menu-sx{
+            .name{
+                padding-left: 0.5rem;
+            }
+            .icons{
+                display: flex;
+                flex-direction: column;
+                gap: 0.25rem;
+                padding: 0.75rem;
+            }
+        }
+        .menu-dx{
+            .fa-ellipsis-vertical{
+                display: block;
+            }
+            .fa-list{
+                display: none;
+            }
+            .fa-desktop{
+                display: none;
+            }
+            .fa-volume-high{
+                display: none;
+            }
+            #progress2{
+                display: none;
+            }
+        }
     }
 }
 
